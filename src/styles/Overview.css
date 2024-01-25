@@ -1,0 +1,44 @@
+/* styles.css (or any other file name you prefer) */
+header {
+  text-align: center;
+  font-size: 3rem;
+  padding: 3rem 0rem;
+}
+.link {
+  text-decoration: none;
+  padding: 28px 41px;
+  margin: 5px;
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.link:hover {
+  background-color: #0056b3;
+}
+
+.link-div {
+  display: grid;
+  /* gap: 2rem; */
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 40rem;
+  border: 2px solid black;
+}
+.link-ul {
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+  grid-template-rows: 10rem 10rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}

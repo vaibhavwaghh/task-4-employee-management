@@ -1,0 +1,15 @@
+/* NotFound.css */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.error-heading {
+  font-size: 2em;
+  color: #dc3545;
+}
+
+.error-message {
+  margin-top: 10px;
+  color: #6c757d;
+}
